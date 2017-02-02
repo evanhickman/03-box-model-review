@@ -1,7 +1,7 @@
-/*Style Resets*/
+/*RESETS*/
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 ul {
@@ -18,7 +18,78 @@ img {
   max-width: 100%;
 }
 
-/*Double Container*/
 body {
-  background: red;
+  font-family: 13px helvetica,arial,freesans,clean,sans-serif;
+}
+
+/* DOUBLE CONTAINER */
+
+.section {
+  padding: 1rem;
+  background: #fff;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+/* GRID */
+
+.grid {
+margin: -1rem;
+overflow: auto;
+}
+
+.grid-item {
+  width: calc(100% /  3 - 1rem - 1rem);
+  min-width: 8rem;
+  float: left;
+  margin: 1rem;
+}
+
+.post {
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.octocat {
+  border: thin solid #9f9f9f;
+  border-radius: .5rem;
+
+  }
+
+.octocat__info {
+  overflow: auto;
+  padding: 0;
+
+  border-bottom: thin solid #9f9f9f;
+}
+
+.octocat__number {
+  float: left;
+  font-size: 1rem;
+  color: #9f9f9f;
+}
+
+.octocat__attribution {
+  display: inline-block;
+  float: right;
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.octocat__name {
+  font-weight: 700;
+  color: #535353;
+}
+
+.octocat__contributor {
+  margin: 1rem 0 1rem 0;
+  float: right;
+  width: 1.2rem;
+  height: 1.2rem;
+
+  border-radius: 0.2rem;
 }
