@@ -25,14 +25,13 @@ body {
 /* DOUBLE CONTAINER */
 
 .section {
-  padding: 1rem;
+  padding: 5rem;
   background: #fff;
 }
 
 .container {
   max-width: 65rem;
   margin: 0 auto;
-  padding: 4rem;
 }
 
 /* GRID */
